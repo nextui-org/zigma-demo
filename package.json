@@ -3,7 +3,6 @@
 	"version": "0.0.0",
 	"main": "index.js",
 	"scripts": {
-		"zigma-sync": "tsx scripts/zigma-sync.ts",
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"lint": "eslint .",
