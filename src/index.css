@@ -1,4 +1,6 @@
-@import url(tokens.css);
+@import url(colors.css);
+@import url(typography.css);
+@import url(borders.css);
 
 @tailwind base;
 @tailwind components;
