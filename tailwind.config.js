@@ -1,0 +1,65 @@
+import DefaultTheme from "tailwindcss/defaultTheme";
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  plugins: [],
+  theme: {
+    extend: {
+      borderRadius: {
+        button: "var(--borders-radius-button)",
+        "extra-large": "var(--borders-radius-extra-large)",
+        large: "var(--borders-radius-large)",
+        medium: "var(--borders-radius-medium)",
+        small: "var(--borders-radius-small)",
+      },
+      colors: {
+        accent: "var(--colors-semantic-layout-accent)",
+        background: "var(--colors-semantic-layout-background)",
+        border: "var(--colors-semantic-layout-border)",
+        "button-primary-active": "var(--colors-specific-button-primary-active)",
+        "button-primary-default": "var(--colors-specific-button-primary-default)",
+        "button-primary-disabled": "var(--colors-specific-button-primary-disabled)",
+        "button-primary-foreground": "var(--colors-specific-button-primary-foreground)",
+        "button-primary-hover": "var(--colors-specific-button-primary-hover)",
+        divider: "var(--colors-semantic-layout-divider)",
+        foreground: "var(--colors-semantic-layout-foreground)",
+        "foreground-muted": "var(--colors-semantic-layout-muted-foreground)",
+      },
+      fontFamily: {
+        body: "var(--typography-base-font-families-body)",
+        code: "var(--typography-base-font-families-code)",
+        heading: "var(--typography-base-font-families-heading)",
+        mono: ["var(--typography-base-font-families-code)", ...DefaultTheme.fontFamily.mono],
+        sans: ["var(--typography-base-font-families-body)", ...DefaultTheme.fontFamily.sans],
+      },
+      fontSize: {
+        base: "var(--typography-base-font-sizes-base)",
+        h1: "var(--typography-base-font-sizes-xxxlarge)",
+        h2: "var(--typography-base-font-sizes-xxlarge)",
+        h3: "var(--typography-base-font-sizes-xlarge)",
+        h4: "var(--typography-base-font-sizes-large)",
+        h5: "var(--typography-base-font-sizes-medium)",
+        h6: "var(--typography-base-font-sizes-small)",
+        large: "var(--typography-base-font-sizes-large)",
+        medium: "var(--typography-base-font-sizes-medium)",
+        small: "var(--typography-base-font-sizes-small)",
+        tiny: "var(--typography-base-font-sizes-tiny)",
+        xlarge: "var(--typography-base-font-sizes-xlarge)",
+        xxlarge: "var(--typography-base-font-sizes-xxlarge)",
+        xxxlarge: "var(--typography-base-font-sizes-xxxlarge)",
+      },
+      fontWeight: {
+        black: "var(--typography-base-font-weights-black)",
+        bold: "var(--typography-base-font-weights-bold)",
+        "extra-bold": "var(--typography-base-font-weights-extra-bold)",
+        "extra-light": "var(--typography-base-font-weights-extra-light)",
+        light: "var(--typography-base-font-weights-light)",
+        medium: "var(--typography-base-font-weights-medium)",
+        regular: "var(--typography-base-font-weights-regular)",
+        "semi-bold": "var(--typography-base-font-weights-semi-bold)",
+        thin: "var(--typography-base-font-weights-thin)",
+      },
+    },
+  },
+};
