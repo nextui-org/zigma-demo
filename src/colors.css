@@ -6,7 +6,7 @@
  */
 
 :root {
-  --colors-base-common-white: #ffffff;
+  --colors-base-common-white: #dcdcdc;
   --colors-base-common-black: #000000;
   --colors-base-blue-50: #e7f3ff;
   --colors-base-blue-100: #c4e1ff;
@@ -82,12 +82,12 @@
   --colors-base-red-700: #920b3a;
   --colors-base-red-800: #610726;
   --colors-base-red-900: #310413;
-  --colors-semantic-layout-background: #ffffff;
-  --colors-semantic-layout-foreground: #334155;
-  --colors-semantic-layout-border: #ff9800;
-  --colors-semantic-layout-divider: #64748b;
-  --colors-semantic-layout-accent: #ff9800;
-  --colors-semantic-layout-muted-foreground: #94a3b8;
+  --colors-semantic-layout-background: #000000;
+  --colors-semantic-layout-foreground: #f1f5f9;
+  --colors-semantic-layout-border: #1e293b;
+  --colors-semantic-layout-divider: #475569;
+  --colors-semantic-layout-accent: #1e293b;
+  --colors-semantic-layout-muted-foreground: #cbd5e1;
   --colors-semantic-primary-50: #e7f3ff;
   --colors-semantic-primary-100: #c4e1ff;
   --colors-semantic-primary-200: #91caff;
