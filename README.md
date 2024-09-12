@@ -1,52 +1,50 @@
-# React + TypeScript + Vite
+<p align="center">
+  <a href="https://zigma.io">
+      <img width="20%" src="https://zigma.sfo2.cdn.digitaloceanspaces.com/zigma-cli.png" alt="zigma" />
+      <h1 align="center">Zigma Demo</h1>
+  </a>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <a
+    href="https://www.producthunt.com/posts/zigma-by-nextui-yc-s24?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-zigma-by-nextui-yc-s24"
+    rel="noreferrer"
+    target="_blank"
+  >
+    <img
+      alt="Zigma by NextUI (YC S24) - Connect your design files to production code in minutes | Product Hunt"
+      height="54"
+      src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=488715&theme=light"
+      style="width: 250px; height: 54px;"
+      width="250"
+    />
+  </a>
+  <p style="margin: 0; padding: 0; font-size: 0.875rem; font-weight: 600; color: #666;">
+    We're live on Product Hunt! Join the conversation and help us get to #1 Product
+    of the day 🚀
+  </p>
+</div>
 
-Based on [Astro paper](https://github.com/satnaing/astro-paper) with some modifications.
+<hr/>
 
-Currently, two official plugins are available:
+A design system creation platform that allows you to create, manage, document, share, and collaborate on design systems.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository was created with React + TypeScript + Vite to show you how to use [zigma.io](https://zigma.io).
 
-## Expanding the ESLint configuration
+Based on [AstroPaper](https://github.com/satnaing/astro-paper)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Clone this repo template and follow these steps:**
 
-- Configure the top-level `parserOptions` property like this:
+[Go to tutorial](https://link.zigma.io/tutorial)
 
-```js
-export default tseslint.config({
-	languageOptions: {
-		// other options...
-		parserOptions: {
-			project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-			tsconfigRootDir: import.meta.dirname,
-		},
-	},
-});
-```
+### Community
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+We're excited to see the community adopt zigma CLI, raise issues, and provide feedback.
+Whether it's a feature request, bug report, or a project to showcase, please get involved!
 
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
+- [Discord](https://discord.gg/9b6yyZKmH4)
+- [Twitter](https://twitter.com/getnextui)
 
-export default tseslint.config({
-	// Set the react version
-	settings: { react: { version: "18.3" } },
-	plugins: {
-		// Add the react plugin
-		react,
-	},
-	rules: {
-		// other rules...
-		// Enable its recommended rules
-		...react.configs.recommended.rules,
-		...react.configs["jsx-runtime"].rules,
-	},
-});
-```
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

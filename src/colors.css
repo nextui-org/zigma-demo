@@ -6,7 +6,7 @@
  */
 
 :root {
-  --colors-base-common-white: #ffffff;
+  --colors-base-common-white: #efefef;
   --colors-base-common-black: #000000;
   --colors-base-common-colors-3: #000000;
   --colors-base-blue-50: #e7f3ff;
@@ -84,10 +84,10 @@
   --colors-base-red-800: #610726;
   --colors-base-red-900: #310413;
   --colors-semantic-layout-background: #ffffff;
-  --colors-semantic-layout-foreground: #373737;
+  --colors-semantic-layout-foreground: #000000;
   --colors-semantic-layout-border: #1e293b;
   --colors-semantic-layout-divider: #475569;
-  --colors-semantic-layout-accent: #1e293b;
+  --colors-semantic-layout-accent: #ff9800;
   --colors-semantic-layout-muted-foreground: #cbd5e1;
   --colors-semantic-primary-50: #e7f3ff;
   --colors-semantic-primary-100: #c4e1ff;
@@ -111,7 +111,7 @@
   --colors-semantic-secondary-900: #1a1a66;
   --colors-specific-button-primary-default: #ff9800;
   --colors-specific-button-primary-foreground: #000000;
-  --colors-specific-button-primary-hover: #ffcc80;
-  --colors-specific-button-primary-active: #ef6c00;
-  --colors-specific-button-primary-disabled: #ef6c00;
+  --colors-specific-button-primary-hover: #91caff;
+  --colors-specific-button-primary-active: #004493;
+  --colors-specific-button-primary-disabled: #004493;
 }
