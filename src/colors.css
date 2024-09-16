@@ -83,12 +83,12 @@
   --colors-base-red-700: #920b3a;
   --colors-base-red-800: #610726;
   --colors-base-red-900: #310413;
-  --colors-semantic-layout-background: #ffffff;
-  --colors-semantic-layout-foreground: #000000;
+  --colors-semantic-layout-background: #000000;
+  --colors-semantic-layout-foreground: #efefef;
   --colors-semantic-layout-border: #1e293b;
-  --colors-semantic-layout-divider: #475569;
-  --colors-semantic-layout-accent: #ff9800;
-  --colors-semantic-layout-muted-foreground: #cbd5e1;
+  --colors-semantic-layout-divider: #334155;
+  --colors-semantic-layout-accent: #fb8c00;
+  --colors-semantic-layout-muted-foreground: #64748b;
   --colors-semantic-primary-50: #e7f3ff;
   --colors-semantic-primary-100: #c4e1ff;
   --colors-semantic-primary-200: #91caff;
