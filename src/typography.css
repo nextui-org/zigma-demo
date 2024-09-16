@@ -6,7 +6,7 @@
  */
 
 :root {
-  --typography-base-font-families-heading: 'IBM Plex Sans Condensed';
+  --typography-base-font-families-heading: Inter;
   --typography-base-font-families-body: Inter;
   --typography-base-font-families-heading-button: Inter;
   --typography-base-font-families-code: 'Fira Code';
