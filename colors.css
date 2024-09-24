@@ -8,7 +8,7 @@
 :root {
   --colors-base-common-white: #efefef;
   --colors-base-common-black: #000000;
-  --colors-base-common-colors-3: #000000;
+  --colors-base-common-colors-3: #f00000;
   --colors-base-blue-50: #e7f3ff;
   --colors-base-blue-100: #c4e1ff;
   --colors-base-blue-200: #91caff;
@@ -83,12 +83,12 @@
   --colors-base-red-700: #920b3a;
   --colors-base-red-800: #610726;
   --colors-base-red-900: #310413;
-  --colors-semantic-layout-background: #ffffff;
-  --colors-semantic-layout-foreground: #000000;
+  --colors-semantic-layout-background: #000000;
+  --colors-semantic-layout-foreground: #efefef;
   --colors-semantic-layout-border: #1e293b;
   --colors-semantic-layout-divider: #475569;
-  --colors-semantic-layout-accent: #ff9800;
-  --colors-semantic-layout-muted-foreground: #cbd5e1;
+  --colors-semantic-layout-accent: #f57c00;
+  --colors-semantic-layout-muted-foreground: #94a3b8;
   --colors-semantic-primary-50: #e7f3ff;
   --colors-semantic-primary-100: #c4e1ff;
   --colors-semantic-primary-200: #91caff;
@@ -109,9 +109,9 @@
   --colors-semantic-secondary-700: #3737b3;
   --colors-semantic-secondary-800: #282893;
   --colors-semantic-secondary-900: #1a1a66;
-  --colors-specific-button-primary-default: #007bff;
-  --colors-specific-button-primary-foreground: #000000;
-  --colors-specific-button-primary-hover: #91caff;
-  --colors-specific-button-primary-active: #004493;
-  --colors-specific-button-primary-disabled: #004493;
+  --colors-specific-button-primary-disabled: #5d37ff;
+  --colors-specific-button-primary-default: #5d37ff;
+  --colors-specific-button-primary-foreground: #efefef;
+  --colors-specific-button-primary-hover: #4949db;
+  --colors-specific-button-primary-active: #8a33ff;
 }
