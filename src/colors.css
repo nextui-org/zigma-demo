@@ -7,7 +7,7 @@
 
 :root {
   --colors-base-common-white: #cecece;
-  --colors-base-common-black: #000000;
+  --colors-base-common-black: #8e8e8e;
   --colors-base-common-colors-3: #ffa7a7;
   --colors-base-blue-50: #e7f3ff;
   --colors-base-blue-100: #c4e1ff;
@@ -113,5 +113,5 @@
   --colors-specific-button-primary-active: #006edb;
   --colors-specific-button-primary-disabled: #338aff;
   --colors-specific-button-primary-default: #f57c00;
-  --colors-specific-button-primary-foreground: #000000;
+  --colors-specific-button-primary-foreground: #8e8e8e;
 }
