@@ -4,9 +4,9 @@
  * @type {import("eslint").Linter.Config}
  */
 module.exports = {
-  root: true,
-  env: {
-    jest: true,
-  },
-  extends: [require.resolve("@zigma.io/config/eslint/react.js")],
+	root: true,
+	env: {
+		jest: true,
+	},
+	extends: [require.resolve("@frontio.ai/config/eslint/react.js")],
 };
